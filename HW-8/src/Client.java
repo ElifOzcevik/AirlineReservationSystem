@@ -14,15 +14,6 @@ public class Client {
         return Integer.toString(this.id);
     }
 
- //   @Override
-  //  public boolean equals(Object o) {
-   //     if (this == o) return true;
-   //     if (o == null || getClass() != o.getClass()) return false;
-
-   //     Client client = (Client) o;
-
-  //      return id == client.id;
- //   }
 
     @Override
     public int hashCode() {
